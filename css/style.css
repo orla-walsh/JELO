@@ -1,0 +1,37 @@
+/* This is an external stylesheet. Add your CSS here */
+
+#mainHeader {
+  font-family: 'Fredericka the Great', cursive;
+  font-size: 80px;
+  color: white;
+  margin-bottom: 1em;
+}
+
+#subHeader {
+  font-family: 'Fredericka the Great', cursive;
+  font-size: 40px;
+  color: white;
+  margin-bottom: 1em;
+}
+
+.header {
+  padding-top: 90px;
+  min-height: 600px;
+  margin-bottom: 0;
+  background-image: url('../images/firework-unsplash.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#Header2 {
+  font-family: 'Fredericka the Great', cursive;
+  font-size: 40px;
+  color: black;
+  margin-bottom: 1em;
+}
+
+.ul2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 20px;
+  color: blue;
+}
