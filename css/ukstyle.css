@@ -1,0 +1,17 @@
+.header {
+  background-image: url("../images/glastonbury.jpg");
+}
+
+#mainHeader {
+  font-family: 'Black Han Sans', sans-serif;
+  font-size: 80px;
+  color: black;
+  margin-bottom: 1em;
+}
+
+#subHeader {
+  font-family: 'Black Han Sans', sans-serif;
+  font-size: 40px;
+  color: black;
+  margin-bottom: 1em;
+}
