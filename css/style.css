@@ -14,7 +14,7 @@
   margin-bottom: 1em;
 }
 
-.heade {
+.header {
   padding-top: 90px;
   min-height: 600px;
   margin-bottom: 0;
@@ -40,6 +40,12 @@
 
 }
 
-.slide {
+.item-active {
+  background-size: cover;
+  font-size: 40px;
+}
 
+.item {
+  background-size: cover;
+  font-size: 40px;
 }
