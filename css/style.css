@@ -14,7 +14,7 @@
   margin-bottom: 1em;
 }
 
-.header {
+.heade {
   padding-top: 90px;
   min-height: 600px;
   margin-bottom: 0;
@@ -34,4 +34,12 @@
   font-family: 'Playfair Display', serif;
   font-size: 20px;
   color: blue;
+}
+
+#myCarousel {
+
+}
+
+.slide {
+
 }
