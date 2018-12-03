@@ -1,1 +1,73 @@
 /*Ireland Page Style Sheet */
+
+#mainHeader {
+  font-family: "Fredericka the Great", cursive;
+  font-size: 80px;
+  color: green;
+  margin-bottom: 1em;
+  padding-left: 20px;
+}
+
+.header {
+  margin-bottom: 0;
+  padding-top: 50px;
+  min-height: 500px;
+  background-image: url("../images/festival-ireland.jpg");
+}
+
+#Header2 {
+  font-family: "Fredericka the Great", cursive;
+  font-size: 60px;
+  color: black;
+  padding-left: 70px;
+}
+
+.menu {
+  width: 100%;
+  height: 200px;
+}
+
+.menu-row {
+  padding-top:15px;
+  padding-bottom:15px;
+}
+
+
+.tag {
+  font-family: 'Playfair Display', serif;
+  color: rgba(255, 255, 255, 1);
+  background-color: rgba(0, 0, 0, 1);
+  background: -webkit-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+  padding: 10px;
+  text-align: justify;
+  line-height: 28px;
+  position: absolute;
+  bottom: 0;
+  margin: 0;
+}
+
+.row menu-row {
+  height: 200px;
+  background-size: cover;
+  position: relative;
+  margin: 40px 0 0 0;
+  border-radius: 12px;
+}
+
+body {
+  background-color: lightgrey;
+}
+
+.h2 {
+        color: white;
+        border: none;
+        padding: 16px 36px;
+        font-weight: normal;
+        border-radius: 3px;
+        transition: background 0.25s ease;
+        box-shadow: 0 38px 32px -23px black;
+        margin: 0 1em 1em;
+    }
+.h2:hover {
+        background: #2c3e50;
+        color: rgba(255, 255, 255, 0.2);
