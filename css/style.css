@@ -2,23 +2,25 @@
 
 #mainHeader {
   font-family: 'Fredericka the Great', cursive;
-  font-size: 80px;
+  font-size: 90px;
   color: white;
   margin-bottom: 1em;
+  padding-left: 40px;
 }
 
 #subHeader {
   font-family: 'Fredericka the Great', cursive;
-  font-size: 40px;
+  font-size: 50px;
   color: white;
   margin-bottom: 1em;
+  text-align: right;
 }
 
 .header {
   padding-top: 90px;
-  min-height: 600px;
+  min-height: 500px;
   margin-bottom: 0;
-  background-image: url('../images/firework-unsplash.jpg');
+  background-image: url('../img/firework-unsplash.jpg');
   background-size: cover;
   background-attachment: fixed;
 }
