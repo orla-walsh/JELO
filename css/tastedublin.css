@@ -3,3 +3,27 @@
 body {
   background-color: lightgrey;
 }
+
+.box {
+  border: 1px solid black;
+  background-color: black;
+  padding: 150px;
+  padding-top: 40px;
+}
+
+.foot-tabs {
+  padding-top: 25px;
+  padding-bottom: 15px;
+  color: white;
+  font-family: 'Permanent Marker', cursive;
+  font-size: 20px;
+  padding-left: 90px;
+}
+
+.copyright {
+  padding-top: 15px;
+  font-family: 'Permanent Marker', cursive;
+  font-size: 20px;
+  text-align: center;
+  color: black;
+}
