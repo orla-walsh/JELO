@@ -16,6 +16,14 @@
   margin-bottom: 1em;
 }
 
+#p1 {
+  font-family: 'Open sans', sans-serif;
+  font-size: 18px;
+  color: black;
+  padding-left: 70px
+}
+}
+
 .menu {
   width: 100%;
 }

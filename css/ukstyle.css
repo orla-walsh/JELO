@@ -16,6 +16,13 @@
   margin-bottom: 1em;
 }
 
+#Header2 {
+  font-family: "Fredericka the Great", cursive;
+  font-size: 60px;
+  color: black;
+  padding-left: 70px;
+}
+
 .menu {
   width: 100%;
 }
@@ -55,4 +62,17 @@
 
 .container .btn:hover {
   background-color: black;
+}
+
+.tag {
+  font-family: 'Playfair Display', serif;
+  color: rgba(255, 255, 255, 1);
+  background-color: rgba(0, 0, 0, 1);
+  background: -webkit-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+  padding: 10px;
+  text-align: justify;
+  line-height: 28px;
+  position: absolute;
+  bottom: 20px;
+  margin: 0;
 }
