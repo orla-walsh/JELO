@@ -3,23 +3,23 @@
 }
 
 #mainHeader {
-  font-family: 'Black Han Sans', sans-serif;
+  font-family: 'BLACK Han Sans', sans-serif;
   font-size: 80px;
-  color: black;
+  color: YELLOW;
   margin-bottom: 1em;
 }
 
 #subHeader {
   font-family: 'Black Han Sans', sans-serif;
   font-size: 40px;
-  color: black;
+  color: blue;
   margin-bottom: 1em;
 }
 
 #Header2 {
   font-family: "Fredericka the Great", cursive;
   font-size: 60px;
-  color: black;
+  color: green;
   padding-left: 70px;
 }
 
