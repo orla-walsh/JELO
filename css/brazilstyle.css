@@ -1,35 +1,78 @@
-*{
+.header {
+  background-image: url("../images/brazil/carnival3.jpg");
+}
+
+#mainHeader {
+  font-family: 'Black Han Sans', sans-serif;
+  font-size: 80px;
+  color: black;
+  margin-bottom: 1em;
+}
+
+#subHeader {
+  font-family: 'Black Han Sans', sans-serif;
+  font-size: 40px;
+  color: black;
+  margin-bottom: 1em;
+}
+
+#Header2 {
+  font-family: "Fredericka the Great", cursive;
+  font-size: 60px;
+  color: black;
+  padding-left: 70px;
+}
+
+.menu {
+  width: 100%;
+}
+
+.menu-row {
+  padding-top:15px;
+  padding-bottom:15px;
+}
+
+/* Container needed to position the button. Adjust the width as needed */
+.container {
+  position: relative;
+  width: 50%;
+}
+
+/* Make the image responsive */
+.container img {
+  width: 100%;
+  height: auto;
+}
+
+/* Style the button and place it in the middle of the container/image */
+.container .btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #555;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.container .btn:hover {
+  background-color: black;
+}
+
+.tag {
+  font-family: 'Playfair Display', serif;
+  color: rgba(255, 255, 255, 1);
+  background-color: rgba(0, 0, 0, 1);
+  background: -webkit-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+  padding: 10px;
+  text-align: justify;
+  line-height: 28px;
+  position: absolute;
+  bottom: 20px;
   margin: 0;
-  padding: 0;
 }
-html, body {
-    height: 100%;
-  }
-header {
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-}
-video {
-    position: absolute;
-    top: 0 ;
-    left: 0;
-    display: block;
-    width: 100%
-}
-.conteudo {
-    display: flex;
-    position: relative;
-    width: 100%;
-    height: 100%;
-    background: rgba(0,0,0,0.7);
-    justify-content: center;
-    align-items: center;
-  }
-  .conteudo p {
-      display: inline;
-      font-size: 60px;
-      color: #2c3e50;
-      font-family: "lobster", cursive
-      text-shadow: 2px 2px 4px #ccc;
-  }
