@@ -30,6 +30,40 @@
   font-size: 40px;
   color: black;
   margin-bottom: 1em;
+  text-align: center;
+}
+
+medium {
+  font-family: "Playfair Display", serif;
+  font-size: 30px;
+  color: #708090;
+}
+
+.MeetUs {
+  font-family: "Fredericka the Great", serif;
+  font-size: 45px;
+  color: black;
+  font-weight: bold;
+}
+
+.Jess {
+  font-family: 'Merienda', cursive;
+  color: #0000CD;
+}
+
+.Orla {
+  font-family: 'Merienda', cursive;
+  color: #008000;
+}
+
+.Lily {
+  font-family: 'Merienda', cursive;
+  color: #FF0000;
+}
+
+p {
+  font-family: 'Merienda', cursive;
+  font-size: 20px;
 }
 
 .ul2 {
@@ -38,19 +72,6 @@
   color: blue;
 }
 
-#myCarousel {
-
-}
-
-.item active {
-  background-size: cover;
-  font-size: 40px;
-}
-
-.item {
-  background-size: cover;
-  font-size: 40px;
-}
 
 body {
   background-color: lightgrey;
@@ -61,6 +82,11 @@ body {
   background-color: black;
   padding: 150px;
   padding-top: 40px;
+}
+
+.master {
+  border: 1px solid black;
+  background-color: black;
 }
 
 .foot-tabs {
